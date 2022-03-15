@@ -1,0 +1,73 @@
+{
+    "vtex.menu@2.x:menu#promo-menu": {
+        "props": {
+          "experimentalOptimizeRendering": true
+    },
+    "children":[
+        "menu-item#category-slider",
+        "menu-item#category-offer",
+        "menu-item#category-help",
+        "menu-item#category-country"
+    ]
+    },
+    "menu-item#category-slider":{
+        "props": {
+            "id": "menu-item-category-slider",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/slider/",
+              "noFollow": false,
+              "tagTitle": "Extra 30%Off Sale",
+              "text": "Extra 30%Off Sale"
+        }
+    }
+    },
+    "menu-item#category-offer":{
+        "props": {
+            "id": "menu-item-category-offer",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/offer/",
+              "noFollow": false,
+              "tagTitle": "All special offer",
+              "text": "All special offer"
+        }
+    }
+    },
+    "menu-item#category-help":{
+        "props": {
+            "id": "menu-item-category-help",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/help/",
+              "noFollow": false,
+              "tagTitle": "help",
+              "text": "Help"
+        }
+    }
+    },
+    "menu-item#category-country":{
+        "props": {
+            "id": "menu-item-category-country",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/country/",
+              "noFollow": false,
+              "tagTitle": "country",
+              "text": "United States"
+        }
+    }
+    }
+}

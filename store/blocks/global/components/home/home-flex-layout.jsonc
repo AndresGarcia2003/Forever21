@@ -1,0 +1,98 @@
+{
+   "flex-layout.row#home__section--one":{
+     "title":"Seccion Uno",
+        "props": {
+         "blockClass":"home__section--one",
+         "horizontalAlign": "center",
+         "verticalAlign": "center"
+       },
+     "children": [
+        "flex-layout.row#section__one--image"
+     ] 
+    },
+    "flex-layout.row#section__one--image":{
+        "children": [
+           "image#home__image"
+        ]
+    },
+    "flex-layout.row#home__section--two":{
+      "title":"Seccion Dos",
+         "props": {
+          "blockClass":"home__section--two", 
+          "horizontalAlign": "center",
+          "verticalAlign": "center"
+        },
+      "children": [
+         "flex-layout.row#section__two--image"
+      ] 
+     },
+     "flex-layout.row#section__two--image":{
+         "children": [
+            "image#home__image-two"
+         ]
+     },
+     "flex-layout.row#home__section--three":{
+      "title":"Seccion Tres",
+         "props": {
+          "blockClass":"home__section--three",
+          "horizontalAlign": "center",
+          "verticalAlign": "center" 
+        },
+      "children": [
+         "flex-layout.row#section__three--image"
+      ] 
+     },
+     "flex-layout.row#section__three--image":{
+         "children": [
+            "image#home__image-three"
+         ]
+     },
+     "flex-layout.row#home__section--four":{
+      "title":"Seccion Cuatro",
+         "props": {
+          "blockClass":"home__section--four",
+          "horizontalAlign": "center",
+          "verticalAlign": "center"
+        },
+      "children": [
+         "flex-layout.row#section__four--image"
+      ] 
+     },
+     "flex-layout.row#section__four--image":{
+      "children": [
+         "image#home__image-four"
+      ]
+  },
+  "flex-layout.row#home__section--five":{
+   "title":"Seccion Cinco",
+      "props": {
+       "blockClass":"home__section--five",
+       "horizontalAlign": "center",
+       "verticalAlign": "center"
+     },
+   "children": [
+      "flex-layout.row#section__five--image"
+   ] 
+  },
+  "flex-layout.row#section__five--image":{
+   "children": [
+      "image#home__image-five"
+   ]
+},
+"flex-layout.row#home__section--six":{
+   "title":"Seccion Seis",
+      "props": {
+       "blockClass":"home__section--six",
+       "horizontalAlign": "center",
+       "verticalAlign": "center"
+     },
+   "children": [
+      "flex-layout.row#section__six--image"
+   ] 
+  },
+  "flex-layout.row#section__six--image":{
+   "children": [
+      "image#home__image-six"
+   ]
+}
+}

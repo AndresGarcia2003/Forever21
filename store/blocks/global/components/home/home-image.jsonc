@@ -1,0 +1,39 @@
+{
+  "image#home__image":{
+     "title": "Imagen de home",
+     "props":{
+         "src": "assets/img/banner-one.jpg"
+     }
+ },
+ "image#home__image-two":{
+    "title": "Imagen de home",
+    "props":{
+        "src": "assets/img/banner-two.jpg"
+    }
+},
+"image#home__image-three":{
+    "title": "Imagen de home",
+    "props":{
+        "src": "assets/img/banner-three.jpg"
+    }
+},
+"image#home__image-four":{
+    "title": "Imagen de home",
+    "props":{
+        "src": "assets/img/banner-four.jpg"
+    }
+},
+"image#home__image-five":{
+    "title": "Imagen de home",
+    "props":{
+        "src": "assets/img/banner-five.jpg"
+    }
+},
+"image#home__image-six":{
+    "title": "Imagen de home",
+    "props":{
+        "src": "assets/img/banner-six.jpg"
+    }
+}
+
+}

@@ -1,0 +1,203 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#category-women",
+      "menu-item#category-plus-curve",
+      "menu-item#category-premiumjeans",
+      "menu-item#category-accessories",
+      "menu-item#category-avtivewear",
+      "menu-item#category-men",
+      "menu-item#category-girls",
+      "menu-item#category-sale"
+    ]
+  },
+  "menu-item#category-women": {
+    "props": {
+      "id": "menu-item-category-women",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/women/",
+        "noFollow": false,
+        "tagTitle": "women",
+        "text": "WOMEN"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-women"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-women": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-women"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-women": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-women-clothing",
+      "menu-item#category-women-accessories",
+      "menu-item#category-women-eyeglasses"
+    ]
+  },
+  "menu-item#category-women-clothing": {
+    "props": {
+      "id": "menu-item-category-women-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/women---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Clothing",
+        "text": "Clothing"
+      }
+    }
+  },
+  "menu-item#category-women-accessories": {
+    "props": {
+      "id": "menu-item-category-women-accessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/women---accessories/accessories/",
+        "noFollow": false,
+        "tagTitle": "Accessories",
+        "text": "Accessories"
+      }
+    }
+  },
+  "menu-item#category-women-eyeglasses": {
+    "props": {
+      "id": "menu-item-category-women-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/women---accessories/eyeglasses/",
+        "noFollow": false,
+        "tagTitle": "Eyeglasses",
+        "text": "Eyeglasses"
+      }
+    }
+  },
+  "menu-item#category-plus-curve": {
+    "props": {
+      "id": "menu-item-category-plus-curve",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/plus-curve/",
+        "noFollow": false,
+        "tagTitle": "PLUS + CURVE",
+        "text": "PLUS + CURVE"
+      }
+    }
+  },
+  "menu-item#category-premiumjeans": {
+    "props": {
+      "id": "menu-item-category-premiumjeans",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/premiumjeans/",
+        "noFollow": false,
+        "tagTitle": "PREMIUM JEANS",
+        "text": "PREMIUM JEANS"
+      }
+    }
+  },
+  "menu-item#category-accessories": {
+    "props": {
+      "id": "menu-item-category-accessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accessories/",
+        "noFollow": false,
+        "tagTitle": "ACCERSSORIES",
+        "text": "ACCESSORIES"
+      }
+    }
+  },
+  "menu-item#category-avtivewear": {
+    "props": {
+      "id": "menu-item-category-avtivewear",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/avtivewear/",
+        "noFollow": false,
+        "tagTitle": "AVTIVEWEAR",
+        "text": "AVTIVEWEAR"
+      }
+    }
+  },
+  "menu-item#category-men": {
+    "props": {
+      "id": "menu-item-category-men",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/men/",
+        "noFollow": false,
+        "tagTitle": "MEN",
+        "text": "MEN"
+      }
+    }
+  },
+  "menu-item#category-girls": {
+    "props": {
+      "id": "menu-item-category-girls",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/girls/",
+        "noFollow": false,
+        "tagTitle": "GIRLS",
+        "text": "GIRLS"
+      }
+    }
+  },
+  "menu-item#category-sale": {
+    "props": {
+      "id": "menu-item-category-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sale/",
+        "noFollow": false,
+        "tagTitle": "SALE",
+        "text": "SALE"
+      }
+    }
+  }
+}

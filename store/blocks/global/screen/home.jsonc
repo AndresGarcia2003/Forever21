@@ -1,12 +1,51 @@
 {
   "store.home": {
     "blocks": [
-      "rich-text"
+      "flex-layout.row#home__section--one",
+      "list-context.image-list#slider-main",
+      "flex-layout.row#home__section--two",
+      "list-context.image-list#slider-second",
+      "flex-layout.row#home__section--three",
+      "flex-layout.row#home__section--four",
+      "flex-layout.row#home__section--five",
+      "flex-layout.row#home__section--six",
+      "rich-text#home1",
+      "list-context.product-list#demo1",
+      "rich-text#home2",
+      "list-context.product-list#demo2",
+      "rich-text#home3",
+      "list-context.product-list#demo3",
+      "rich-text#home4"
+
     ]
   },
-  "rich-text": {
+  "rich-text#home1": {
     "props": {
-      "text": "IT Globers Store Theme",
+      "text": "New Arrivals",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2"
+    }
+  },
+  "rich-text#home2": {
+    "props": {
+      "text": "Best Sellers",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2"
+    }
+  },
+  "rich-text#home3": {
+    "props": {
+      "text": "Sale",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2"
+    }
+  },
+  "rich-text#home4": {
+    "props": {
+      "text": "Forever Favorites",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "font": "t-heading-2"

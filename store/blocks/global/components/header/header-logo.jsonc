@@ -1,0 +1,44 @@
+{
+    "flex-layout.row#promo":{
+        "props": {
+          "fullWidth": true,
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "blockClass":"main-promo"
+        },
+        "children":[
+          "vtex.menu@2.x:menu#promo-menu"
+        ]
+      },
+      "flex-layout.row#desktop": {
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "fullWidth": true,
+          "blockClass":"main-header-desktop"
+        },
+        "children": [
+          "flex-layout.col#logo-desktop",
+          "login",
+          "minicart.v2"
+        ]
+      },
+      "flex-layout.col#logo-desktop": {
+        "props": {
+          "verticalAlign": "middle"
+        },
+        "children": ["logo"]
+      },
+      "logo": {
+        "props": {
+          "title": "Logo",
+          "href": "/",
+          "url": "assets/img/Forever-21-Logo.png",
+          "width": "150"
+        }
+    }
+}
