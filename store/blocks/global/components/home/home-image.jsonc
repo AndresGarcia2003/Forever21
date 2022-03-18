@@ -34,6 +34,32 @@
     "props":{
         "src": "assets/img/banner-six.jpg"
     }
+},
+"image#home__image-seven":{
+    "title": "Imagen de home",
+    "props":{
+        "src": "assets/img/favorites.jpg"
+    }
+},
+"image#home__image-eight":{
+    "title": "Imagen de home",
+    "props":{
+        "src": "assets/img/favorites2.jpg"
+    }
+},
+"image#home__image-nine":{
+    "title": "Imagen de home",
+    "props":{
+        "src": "assets/img/favorites3.jpg"
+    }
+},
+"image#home__image-ten":{
+    "title": "Imagen de home",
+    "props":{
+        "src": "assets/img/favorites4.jpg"
+    }
 }
+
+
 
 }

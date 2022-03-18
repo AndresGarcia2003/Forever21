@@ -15,7 +15,11 @@
       "list-context.product-list#demo2",
       "rich-text#home3",
       "list-context.product-list#demo3",
-      "rich-text#home4"
+      "rich-text#home4",
+      "flex-layout.row#home__section--seven",
+      "flex-layout.row#home__section--eight",
+      "flex-layout.row#home__section--nine",
+      "flex-layout.row#home__section--ten"
 
     ]
   },
@@ -51,4 +55,5 @@
       "font": "t-heading-2"
     }
   }
+  
 }
