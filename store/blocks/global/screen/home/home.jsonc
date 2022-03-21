@@ -16,10 +16,7 @@
       "rich-text#home3",
       "list-context.product-list#demo3",
       "rich-text#home4",
-      "flex-layout.row#home__section--seven",
-      "flex-layout.row#home__section--eight",
-      "flex-layout.row#home__section--nine",
-      "flex-layout.row#home__section--ten"
+      "flex-layout.row#global__home--info--cards1"
 
     ]
   },
@@ -54,6 +51,66 @@
       "textPosition": "CENTER",
       "font": "t-heading-2"
     }
-  }
-  
+  },
+  "flex-layout.row#global__home--info--cards1": {
+    "title": "Info cards 1",
+    "children": [
+     "flex-layout.col#global__home--info--card1--container"
+    ],
+    "props": {
+     "blockClass": "main-container"
+    }
+   },
+   // Info cards container
+   "flex-layout.col#global__home--info--card1--container": {
+    "children": [
+     "flex-layout.row#global__home--info--cards1--content"
+    ],
+    "props": {
+     "blockClass": "home-content"
+    }
+   },
+   // Info cards content
+   "flex-layout.row#global__home--info--cards1--content": {
+    "children": [
+     "flex-layout.col#global__info--cards1--card1"
+    ],
+    "props": {
+     "blockClass": ""
+    }
+   },
+   // Info cards 1
+   "flex-layout.col#global__info--cards1--card1": {
+    "title": "Card #1",
+    "children": [
+     "image#global__info--cards1--card1--image",
+     "rich-text#global__info--cards1--card1-description",
+     "rich-text#global__info--cards1--card1-shop"
+    ],
+    "props": {
+     "blockClass": ""
+    }
+   },
+   "image#global__info--cards1--card1--image": {
+    "title": "Card Image",
+    "props": {
+     "blockClass": "",
+     "src": "assets/img/favorites.jpg",
+     "alt": ""
+    }
+   },
+   "rich-text#global__info--cards1--card1-description": {
+    "title": "Card Description",
+    "props": {
+     "text": "We’ve got the hottest women’s dresses to add to your wardrobe. Feel yourself in florals and cute ruffles on a day out. Then switch gears with a sexy bodycon or a cute mini dress on fun night out.",
+     "blockClass": ""
+    }
+   },
+   "rich-text#global__info--cards1--card1-shop": {
+    "title": "Card Action Text",
+    "props": {
+     "text": "[SHOP NOW]()",
+     "blockClass": ""
+    }
+   }
 }
