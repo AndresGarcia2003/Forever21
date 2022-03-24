@@ -1,73 +1,132 @@
 {
-    "vtex.menu@2.x:menu#promo-menu": {
-        "props": {
-          "experimentalOptimizeRendering": true
+  "vtex.menu@2.x:menu#promo-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
+      
+      
     },
-    "children":[
-        "menu-item#category-slider",
-        "menu-item#category-offer",
-        "menu-item#category-help",
-        "menu-item#category-country"
+    "children": ["flex-layout.row#container--header"]
+  },
+  "flex-layout.row#container--header": {
+    "children": [
+      "slider-layout#text-test",
+      "menu-item#category-offer",
+      "menu-item#category-help",
+      "menu-item#category-country"
     ]
+  },
+  "slider-layout#text-test": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+          "showNavigationArrows": true,
+          "autoplay": {
+            "timeout": 5000,
+          "stopOnHover": false
+         },
+          "blockClass": "carousel"
     },
-    "menu-item#category-slider":{
-        "props": {
-            "id": "menu-item-category-slider",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,
-            "itemProps": {
-              "type": "internal",
-              "href": "/slider/",
-              "noFollow": false,
-              "tagTitle": "Extra 30%Off Sale",
-              "text": "Extra 30%Off Sale"
-        }
+    "children": [
+      "rich-text#1",
+      "rich-text#2",
+      "rich-text#3",
+      "rich-text#4",
+      "rich-text#5",
+      "rich-text#6",
+      "rich-text#7",
+      "rich-text#8"
+    ]
+  },
+
+  "rich-text#1": {
+    "props": {
+      "text": "Shop Now. Pay in 4 with Klarna."
     }
-    },
-    "menu-item#category-offer":{
-        "props": {
-            "id": "menu-item-category-offer",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,
-            "itemProps": {
-              "type": "internal",
-              "href": "/offer/",
-              "noFollow": false,
-              "tagTitle": "All special offer",
-              "text": "All special offer"
-        }
+  },
+  "rich-text#2": {
+    "props": {
+      "text": "Free Standard Shipping on Orders $50+"
     }
-    },
-    "menu-item#category-help":{
-        "props": {
-            "id": "menu-item-category-help",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,
-            "itemProps": {
-              "type": "internal",
-              "href": "/help/",
-              "noFollow": false,
-              "tagTitle": "help",
-              "text": "Help"
-        }
+  },
+  "rich-text#3": {
+    "props": {
+      "text": "Click & Collect | Buy Online, Ship FREE to Store"
     }
-    },
-    "menu-item#category-country":{
-        "props": {
-            "id": "menu-item-category-country",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,
-            "itemProps": {
-              "type": "internal",
-              "href": "/country/",
-              "noFollow": false,
-              "tagTitle": "country",
-              "text": "United States"
-        }
+  },
+  "rich-text#4": {
+    "props": {
+      "text": "Take An Extra 17% Off Your Purchase"
     }
+  },
+  "rich-text#5": {
+    "props": {
+      "text": "Extra 30% Off Sale | CODE: EXTRA30"
     }
+  },
+  "rich-text#6": {
+    "props": {
+      "text": "Spring Deals Take 50% Off"
+    }
+  },
+  "rich-text#7": {
+    "props": {
+      "text": "Buy Now, Pay Later with AFTERPAY"
+    }
+  },
+  "rich-text#8": {
+    "props": {
+      "text": "Shop Now. Pay in 4 with Klarna.*"
+    }
+  },
+  "menu-item#category-offer": {
+    "props": {
+      "id": "menu-item-category-offer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/offer/",
+        "noFollow": false,
+        "tagTitle": "All special offer",
+        "text": "All special offer"
+      }
+    }
+  },
+  "menu-item#category-help": {
+    "props": {
+      "id": "menu-item-category-help",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/help/",
+        "noFollow": false,
+        "tagTitle": "help",
+        "text": "Help"
+      }
+    }
+  },
+  "menu-item#category-country": {
+    "props": {
+      "id": "menu-item-category-country",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/country/",
+        "noFollow": false,
+        "tagTitle": "country",
+        "text": "United States"
+      }
+    }
+  }
 }

@@ -1,98 +1,103 @@
 {
-"flex-layout.row#main-container":{
+  "flex-layout.row#main-container": {
     "title": "home-container",
-    "children": [
-        "flex-layout.col#hero-container"
-    ],
-    "props":{
-        "blockClass":"home-container"
+    "children": ["flex-layout.col#hero-container"],
+    "props": {
+      "blockClass": "home-container",
+      "paddingBottom": 8
     }
-},
-"flex-layout.col#hero-container":{
-    "children": [
-        "list-context.image-list#slider-main"
-    ]
-},
+  },
+  "flex-layout.col#hero-container": {
+    "children": ["list-context.image-list#slider-main"]
+  },
 
-    "list-context.image-list#slider-main": {
-        "children": ["slider-layout#demo-images"],
-        "props": {
-          "height": 373,
-          "images": [
-            {
-              "src": "assets/img/slider10.jpg",
-              "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
-            },
-            {
-              "src": "assets/img/slider11.jpg",
-              "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
-            },
-            {
-                "src": "assets/img/slider12.jpg",
-                "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
-            },
-            {
-                "src": "assets/img/slider13.jpg",
-                "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
-            },
-            {
-                "src": "assets/img/slider14.jpg",
-                "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
-            },
-            {
-                "src": "assets/img/slider15.jpg",
-                "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
-            }
-          ]
+  "list-context.image-list#slider-main": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 373,
+      "images": [
+        {
+          "src": "assets/img/slider10.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "src": "assets/img/slider11.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "src": "assets/img/slider12.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "src": "assets/img/slider13.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "src": "assets/img/slider14.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "src": "assets/img/slider15.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
         }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 1,
+        "phone": 1
       },
-      "slider-layout#demo-images": {
-        "props": {
-          "itemsPerPage": {
-            "desktop": 4,
-            "tablet": 1,
-            "phone": 1
-          },
-          "infinite": true,
-          "showNavigationArrows": "desktopOnly",
-          "blockClass": "carousel"
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+  "flex-layout.row#main-container-two":{
+    "children":[
+      "list-context.image-list#slider-second"
+    ],
+    "props": {
+      "blockClass": "home-container-two",
+      "paddingBottom": 8
+    }
+  },
+  "list-context.image-list#slider-second": {
+    "children": ["slider-layout#images-second"],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "src": "assets/img/slider-prom1.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "src": "assets/img/slider-prom2.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "src": "assets/img/slider-prom3.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
         }
+      ]
+    }
+  },
+  "slider-layout#images-second": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
       },
-      "list-context.image-list#slider-second": {
-        "children": ["slider-layout#images-second"],
-        "props": {
-          "height": 720,
-          "images": [
-            {
-              "src": "assets/img/slider-prom1.jpg",
-              "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
-            },
-            {
-                "src": "assets/img/slider-prom2.jpg",
-              "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
-            },
-            {
-                "src": "assets/img/slider-prom3.jpg",
-              "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
-            }
-          ]
-        }
+      "infinite": true,
+      "showNavigationArrows": false,
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": false
       },
-      "slider-layout#images-second": {
-        "props": {
-          "itemsPerPage": {
-            "desktop": 1,
-            "tablet": 1,
-            "phone": 1
-          },
-          "infinite": true,
-          "showNavigationArrows": false,
-          "autoplay": {
-            "timeout": 5000,
-          "stopOnHover": false
-         },
-          "blockClass": "carousel"
-        }
-      } 
-
+      "blockClass": "carousel"
+    }
+  }
 }

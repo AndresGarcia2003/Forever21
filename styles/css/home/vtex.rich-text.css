@@ -1,0 +1,12 @@
+.link--button-shop-now{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+.link--button-shop-now:hover{
+    background-color:white;
+    color: black;
+    padding: 5px 10px;
+    border: 1px solid;
+}

@@ -22,7 +22,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/women/",
+        "href": "/Category/Mujer",
         "noFollow": false,
         "tagTitle": "women",
         "text": "WOMEN"
@@ -58,7 +58,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/women---accessories/clothing/",
+        "href": "/Category/Mujer/Americana/",
         "noFollow": false,
         "tagTitle": "Clothing",
         "text": "Clothing"
@@ -103,7 +103,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/plus-curve/",
+        "href": "/Category/Hombre/",
         "noFollow": false,
         "tagTitle": "PLUS + CURVE",
         "text": "PLUS + CURVE"
@@ -118,7 +118,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/premiumjeans/",
+        "href": "/Category/Bebé/",
         "noFollow": false,
         "tagTitle": "PREMIUM JEANS",
         "text": "PREMIUM JEANS"
@@ -133,7 +133,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/accessories/",
+        "href": "/Category/Niños/",
         "noFollow": false,
         "tagTitle": "ACCERSSORIES",
         "text": "ACCESSORIES"
@@ -148,7 +148,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/avtivewear/",
+        "href": "/Category/Avtivewear/",
         "noFollow": false,
         "tagTitle": "AVTIVEWEAR",
         "text": "AVTIVEWEAR"
@@ -163,7 +163,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/men/",
+        "href": "/Category/Men/",
         "noFollow": false,
         "tagTitle": "MEN",
         "text": "MEN"
@@ -178,7 +178,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/girls/",
+        "href": "/Category/",
         "noFollow": false,
         "tagTitle": "GIRLS",
         "text": "GIRLS"
@@ -193,7 +193,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/sale/",
+        "href": "/Category/Sale/",
         "noFollow": false,
         "tagTitle": "SALE",
         "text": "SALE"

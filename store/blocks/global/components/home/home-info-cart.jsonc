@@ -1,0 +1,170 @@
+{
+  "flex-layout.row#global__home--info--cards5": {
+    "title": "Info cards",
+    "children": ["flex-layout.col#global__home--info--card5--container"],
+    "props": {
+      "blockClass": "main-container"
+    }
+  },
+  // Info cards container
+  "flex-layout.col#global__home--info--card5--container": {
+    "children": [
+      "flex-layout.row#global__home--info--cards5--content"
+    ],
+    "props": {
+      "blockClass": "home-content"
+    }
+  },
+  // Info cards content
+  "flex-layout.row#global__home--info--cards5--content": {
+    "children": [
+      "flex-layout.col#global__info--cards5--card1",
+      "flex-layout.col#global__info--cards5--card2",
+      "flex-layout.col#global__info--cards5--card3",
+      "flex-layout.col#global__info--cards5--card4"
+    ],
+    "props": {
+      "blockClass": ""
+    }
+  },
+  // Info cards 1
+  "flex-layout.col#global__info--cards5--card1": {
+    "title": "Card #1",
+    "children": [
+      "image#global__info--cards5--card1--image",
+      "rich-text#global__info--cards5--card1-description",
+      "rich-text#global__info--cards5--card1-shop"
+    ],
+    "props": {
+      "blockClass": ""
+    }
+  },
+  "image#global__info--cards5--card1--image": {
+    "title": "Card Image",
+    "props": {
+      "blockClass": "",
+      "src": "assets/img/favorites.jpg",
+      "alt": ""
+    }
+  },
+  "rich-text#global__info--cards5--card1-description": {
+    "title": "Card Description",
+    "props": {
+      "text": "We’ve got the hottest women’s dresses to add to your wardrobe. Feel yourself in florals and cute ruffles on a day out. Then switch gears with a sexy bodycon or a cute mini dress on fun night out.",
+      "blockClass": "text-card-description",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#global__info--cards5--card1-shop": {
+    "title": "Card Action Text",
+    "props": {
+      "text": "[Shop Dresses]()",
+      "blockClass": "button-shop-now",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  // Info cards 2
+  "flex-layout.col#global__info--cards5--card2": {
+    "title": "Card #2",
+    "children": [
+      "image#global__info--cards5--card2--image",
+      "rich-text#global__info--cards5--card2-description",
+      "rich-text#global__info--cards5--card2-shop"
+    ],
+    "props": {
+      "blockClass": ""
+    }
+  },
+  "image#global__info--cards5--card2--image": {
+    "title": "Card Image",
+    "props": {
+      "blockClass": "",
+      "src": "assets/img/favorites2.jpg",
+      "alt": ""
+    }
+  },
+  "rich-text#global__info--cards5--card2-description": {
+    "title": "Description",
+    "props": {
+      "text": "Stay on top on it with the latest styles from Forever 21! Dress your look of the day in off-the-shoulder tops, camis, and button-front shirts. Up the ante, with a sexy sequin top for your night out. Shop women's tops from $3.99.",
+      "blockClass": ""
+    }
+  },
+  "rich-text#global__info--cards5--card2-shop": {
+    "title": "Card Action Text",
+    "props": {
+      "text": "[Shop Tops]()",
+      "blockClass": "button-shop-now"
+    }
+  },
+  // Info cards3
+  "flex-layout.col#global__info--cards5--card3": {
+    "title": "Card #3",
+    "children": [
+      "image#global__info--cards5--card3--image",
+      "rich-text#global__info--cards5--card3-description",
+      "rich-text#global__info--cards5--card3-shop"
+    ],
+    "props": {
+      "blockClass": ""
+    }
+  },
+  "image#global__info--cards5--card3--image": {
+    "title": "Card Image",
+    "props": {
+      "blockClass": "",
+      "src": "assets/img/favorites3.jpg",
+      "alt": ""
+    }
+  },
+  "rich-text#global__info--cards5--card3-description": {
+    "title": "Description",
+    "props": {
+      "text": "Come shop our gorgeous plus size styles at Forever 21. Discover the hottest styles and outfits for your everyday. Always on trend, we’ve got a fabulous selection of plus size denim, plus size jackets, and plus sizes dresses.",
+      "blockClass": ""
+    }
+  },
+  "rich-text#global__info--cards5--card3-shop": {
+    "title": "Card Action Text",
+    "props": {
+      "text": "[Shop Plus]()",
+      "blockClass": "button-shop-now"
+    }
+  },
+   // Info cards4
+  "flex-layout.col#global__info--cards5--card4": {
+    "title": "Card #4",
+    "children": [
+      "image#global__info--cards5--card4--image",
+      "rich-text#global__info--cards5--card4-description",
+      "rich-text#global__info--cards5--card4-shop"
+    ],
+    "props": {
+      "blockClass": ""
+    }
+  },
+  "image#global__info--cards5--card4--image": {
+    "title": "Card Image",
+    "props": {
+      "blockClass": "",
+      "src": "assets/img/favorites4.jpg",
+      "alt": ""
+    }
+  },
+  "rich-text#global__info--cards5--card4-description": {
+    "title": "Description",
+    "props": {
+      "text": "Need a wardrobe change? Come check out our men’s clothing at Forever 21. We’ve got all the newest trends and most-wanted pieces up to date. Whether you’re kicking it casual or going all out, we got you covered.",
+      "blockClass": ""
+    }
+  },
+  "rich-text#global__info--cards5--card4-shop": {
+    "title": "Card Action Text",
+    "props": {
+      "text": "[Shop Men]()",
+      "blockClass": "button-shop-now"
+    }
+  }
+}

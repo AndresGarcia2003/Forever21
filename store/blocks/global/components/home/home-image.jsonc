@@ -8,7 +8,9 @@
  "image#home__image-two":{
     "title": "Imagen de home",
     "props":{
-        "src": "assets/img/banner-two.jpg"
+        "src": "assets/img/banner-two.jpg",
+        "maxHeight":612,
+        "maxWidth": 1176
     }
 },
 "image#home__image-three":{
@@ -57,6 +59,13 @@
     "title": "Imagen de home",
     "props":{
         "src": "assets/img/favorites4.jpg"
+    }
+},
+"image#home__image-eleven":{
+    "title": "Imagen de home",
+    "props":{
+        "src": "assets/img/button1.jpg"
+        
     }
 }
 

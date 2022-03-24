@@ -1,10 +1,11 @@
 {
    "flex-layout.row#home__section--one":{
-     "title":"Seccion Uno",
+     "title":"Section One",
         "props": {
          "blockClass":"home__section--one",
          "horizontalAlign": "center",
-         "verticalAlign": "center"
+         "verticalAlign": "center",
+         "paddingBottom": 8
        },
      "children": [
         "flex-layout.row#section__one--image"
@@ -16,11 +17,12 @@
         ]
     },
     "flex-layout.row#home__section--two":{
-      "title":"Seccion Dos",
+      "title":"Section Two",
          "props": {
           "blockClass":"home__section--two", 
           "horizontalAlign": "center",
-          "verticalAlign": "center"
+          "verticalAlign": "center",
+          "paddingBottom": 8
         },
       "children": [
          "flex-layout.row#section__two--image"
@@ -32,11 +34,12 @@
          ]
      },
      "flex-layout.row#home__section--three":{
-      "title":"Seccion Tres",
+      "title":"Section Three",
          "props": {
           "blockClass":"home__section--three",
           "horizontalAlign": "center",
-          "verticalAlign": "center" 
+          "verticalAlign": "center",
+          "paddingBottom": 8
         },
       "children": [
          "flex-layout.row#section__three--image"
@@ -48,11 +51,12 @@
          ]
      },
      "flex-layout.row#home__section--four":{
-      "title":"Seccion Cuatro",
+      "title":"Section Four",
          "props": {
           "blockClass":"home__section--four",
           "horizontalAlign": "center",
-          "verticalAlign": "center"
+          "verticalAlign": "center",
+          "paddingBottom": 8
         },
       "children": [
          "flex-layout.row#section__four--image"
@@ -64,11 +68,12 @@
       ]
   },
   "flex-layout.row#home__section--five":{
-   "title":"Seccion Cinco",
+   "title":"Section Five",
       "props": {
        "blockClass":"home__section--five",
        "horizontalAlign": "center",
-       "verticalAlign": "center"
+       "verticalAlign": "center",
+       "paddingBottom": 8
      },
    "children": [
       "flex-layout.row#section__five--image"
@@ -80,11 +85,12 @@
    ]
 },
 "flex-layout.row#home__section--six":{
-   "title":"Seccion Seis",
+   "title":"Section Six",
       "props": {
        "blockClass":"home__section--six",
        "horizontalAlign": "center",
-       "verticalAlign": "center"
+       "verticalAlign": "center",
+       "paddingBottom": 8
      },
    "children": [
       "flex-layout.row#section__six--image"

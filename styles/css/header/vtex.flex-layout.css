@@ -1,10 +1,18 @@
 .flexRowContent--main-promo{
     background-color:white;
     font-family: sans-serif;
+    margin: 0;
 }
 .flexRowContent--main-header-desktop{
     background-color:#ffffff;
 }
 .flexRowContent--main-header-menu{
     background-color:white;
+    margin: 0;
+}
+.flexRowContent--main-header-menu :global(.vtex-input-prefix__group){
+    border: none;
+    border-bottom: 1px solid;
+    margin: 0;
+    padding: 0;
 }

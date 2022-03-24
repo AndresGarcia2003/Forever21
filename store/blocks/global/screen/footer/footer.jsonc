@@ -15,8 +15,7 @@
       "vtex.menu@2.x:menu#footer-clothing",
       "vtex.menu@2.x:menu#footer-decoration",
       "vtex.menu@2.x:menu#footer-bags",
-      "footer-spacer",
-      "social-networks"
+      "footer-spacer"
     ],
     "props": {
       "blockClass": "menu-row",
@@ -24,41 +23,39 @@
       "paddingBottom": 3
     }
   },
-
+  "flex-layout.row#footer-2-desktop": {
+    "children": ["social-networks"],
+    "props": {
+      "blockClass": "social-networks-footer"
+    }
+  },
   "social-networks": {
     "props": {
       "socialNetworks": [
         {
           "name": "Facebook",
-          "url": "https://www.facebook.com/vtexonline/"
+          "url": "https://www.facebook.com/forever21"
         },
         {
           "name": "Instagram",
-          "url": "https://www.instagram.com/vtextruecloud/"
+          "url": "https://www.instagram.com/forever21/"
         },
         {
           "name": "Twitter",
-          "url": "https://twitter.com/vtexonline"
+          "url": "https://twitter.com/forever21"
         },
         {
           "name": "Youtube",
-          "url": "https://www.youtube.com/user/VTEXTV"
+          "url": "https://www.youtube.com/user/forever21inc"
+        },
+        {
+          "name": "Pinterest",
+          "url":"https://co.pinterest.com/forever21/"
         }
       ]
     }
   },
 
-  "flex-layout.row#footer-2-desktop": {
-    "children": ["accepted-payment-methods"],
-    "props": {
-      "blockClass": "payment-methods"
-    }
-  },
-  "accepted-payment-methods": {
-    "props": {
-      "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
-    }
-  },
 
   "flex-layout.row#footer-3-desktop": {
     "children": ["rich-text#footer"],
