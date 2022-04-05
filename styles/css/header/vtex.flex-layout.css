@@ -12,7 +12,12 @@
 }
 .flexRowContent--main-header-menu :global(.vtex-input-prefix__group){
     border: none;
-    border-bottom: 1px solid;
+    border-bottom: 0.0625rem solid #97a1b0;
     margin: 0;
     padding: 0;
+    width: 160px;
+    height: 2rem;
+    padding-right: 2rem;
+    bottom: 1.125rem;
 }
+

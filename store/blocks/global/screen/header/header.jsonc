@@ -19,6 +19,19 @@
       "flex-layout.row#menu"
     ]
   },
+  "flex-layout.row#promo":{
+    "props": {
+      "fullWidth": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "blockClass":"main-promo"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#promo-menu"
+    ]
+  },
   "flex-layout.row#menu":{
     "props": {
       "fullWidth": true,

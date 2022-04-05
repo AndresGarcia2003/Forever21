@@ -8,40 +8,64 @@
     }
   },
   "flex-layout.col#hero-container": {
-    "children": ["list-context.image-list#slider-main"]
+    "children": ["list-context.bullet-group"]
   },
 
-  "list-context.image-list#slider-main": {
-    "children": ["slider-layout#demo-images"],
-    "props": {
-      "height": 373,
-      "images": [
-        {
-          "src": "assets/img/slider10.jpg",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+  "list-context.bullet-group": {
+      "title":"Bullets",
+      "children": [
+        "slider-layout#bullet-group"
+      ],
+      "props":{
+        "bullets":[
+          {
+          "image":"assets/img/slider10.jpg",
+          // "titleBullet":"computadores",
+          "link":{
+            "url":"/"
+          }
         },
         {
-          "src": "assets/img/slider11.jpg",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+          "image":"assets/img/slider11.jpg",
+          "link":{
+            "url":"/"
+          }
         },
         {
-          "src": "assets/img/slider12.jpg",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+          "image":"assets/img/slider12.jpg",
+          "link":{
+            "url":"/"
+          }
         },
         {
-          "src": "assets/img/slider13.jpg",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+          "image":"assets/img/slider13.jpg",
+          "link":{
+            "url":"/"
+          }
+        }, {
+          "image":"assets/img/slider14.jpg",
+          "link":{
+            "url":"/"
+          }
         },
         {
-          "src": "assets/img/slider14.jpg",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
-        },
-        {
-          "src": "assets/img/slider15.jpg",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+          "image":"assets/img/slider15.jpg",
+          "link":{
+            "url":"/"
+          }
         }
       ]
-    }
+      }
+    },
+    "slider-layout#bullet-group":{
+      "props":{
+        "itemsPerPage":{
+          "desktop":5,
+          "tablet":5,
+          "mobile":5
+        },
+        "infinite":true
+      }
   },
   "slider-layout#demo-images": {
     "props": {

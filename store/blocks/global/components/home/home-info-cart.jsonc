@@ -3,7 +3,8 @@
     "title": "Info cards",
     "children": ["flex-layout.col#global__home--info--card5--container"],
     "props": {
-      "blockClass": "main-container"
+      "blockClass": "main-container",
+      "paddingBottom": 8
     }
   },
   // Info cards container
@@ -12,7 +13,8 @@
       "flex-layout.row#global__home--info--cards5--content"
     ],
     "props": {
-      "blockClass": "home-content"
+      "blockClass": "home-content",
+      "paddingBottom": 8
     }
   },
   // Info cards content
@@ -89,14 +91,18 @@
     "title": "Description",
     "props": {
       "text": "Stay on top on it with the latest styles from Forever 21! Dress your look of the day in off-the-shoulder tops, camis, and button-front shirts. Up the ante, with a sexy sequin top for your night out. Shop women's tops from $3.99.",
-      "blockClass": ""
+      "blockClass": "text-card-description",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
   "rich-text#global__info--cards5--card2-shop": {
     "title": "Card Action Text",
     "props": {
       "text": "[Shop Tops]()",
-      "blockClass": "button-shop-now"
+      "blockClass": "button-shop-now",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
   // Info cards3
@@ -123,14 +129,18 @@
     "title": "Description",
     "props": {
       "text": "Come shop our gorgeous plus size styles at Forever 21. Discover the hottest styles and outfits for your everyday. Always on trend, we’ve got a fabulous selection of plus size denim, plus size jackets, and plus sizes dresses.",
-      "blockClass": ""
+      "blockClass": "text-card-description",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
   "rich-text#global__info--cards5--card3-shop": {
     "title": "Card Action Text",
     "props": {
       "text": "[Shop Plus]()",
-      "blockClass": "button-shop-now"
+      "blockClass": "button-shop-now",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
    // Info cards4
@@ -157,14 +167,18 @@
     "title": "Description",
     "props": {
       "text": "Need a wardrobe change? Come check out our men’s clothing at Forever 21. We’ve got all the newest trends and most-wanted pieces up to date. Whether you’re kicking it casual or going all out, we got you covered.",
-      "blockClass": ""
+      "blockClass": "text-card-description",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
   "rich-text#global__info--cards5--card4-shop": {
     "title": "Card Action Text",
     "props": {
       "text": "[Shop Men]()",
-      "blockClass": "button-shop-now"
+      "blockClass": "button-shop-now",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   }
 }

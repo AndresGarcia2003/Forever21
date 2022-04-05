@@ -1,11 +1,7 @@
 {
   "vtex.menu@2.x:menu#promo-menu": {
     "props": {
-      "experimentalOptimizeRendering": true,
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true
-      
-      
+      "experimentalOptimizeRendering": true
     },
     "children": ["flex-layout.row#container--header"]
   },
@@ -29,8 +25,7 @@
           "autoplay": {
             "timeout": 5000,
           "stopOnHover": false
-         },
-          "blockClass": "carousel"
+         }
     },
     "children": [
       "rich-text#1",
@@ -46,46 +41,55 @@
 
   "rich-text#1": {
     "props": {
+      "blockClass":"menu-item-promo",
       "text": "Shop Now. Pay in 4 with Klarna."
     }
   },
   "rich-text#2": {
     "props": {
+      "blockClass":"menu-item-promo",
       "text": "Free Standard Shipping on Orders $50+"
     }
   },
   "rich-text#3": {
     "props": {
+      "blockClass":"menu-item-promo",
       "text": "Click & Collect | Buy Online, Ship FREE to Store"
     }
   },
   "rich-text#4": {
     "props": {
+      "blockClass":"menu-item-promo",
       "text": "Take An Extra 17% Off Your Purchase"
     }
   },
   "rich-text#5": {
     "props": {
+      "blockClass":"menu-item-promo",
       "text": "Extra 30% Off Sale | CODE: EXTRA30"
     }
   },
   "rich-text#6": {
     "props": {
+      "blockClass":"menu-item-promo",
       "text": "Spring Deals Take 50% Off"
     }
   },
   "rich-text#7": {
     "props": {
+      "blockClass":"menu-item-promo",
       "text": "Buy Now, Pay Later with AFTERPAY"
     }
   },
   "rich-text#8": {
     "props": {
+      "blockClass":"menu-item-promo",
       "text": "Shop Now. Pay in 4 with Klarna.*"
     }
   },
   "menu-item#category-offer": {
     "props": {
+      "blockClass":"menu-item-promo",
       "id": "menu-item-category-offer",
       "type": "custom",
       "iconId": null,
@@ -101,6 +105,7 @@
   },
   "menu-item#category-help": {
     "props": {
+      "blockClass":"menu-item-promo",
       "id": "menu-item-category-help",
       "type": "custom",
       "iconId": null,
@@ -116,6 +121,7 @@
   },
   "menu-item#category-country": {
     "props": {
+      "blockClass":"menu-item-promo",
       "id": "menu-item-category-country",
       "type": "custom",
       "iconId": null,

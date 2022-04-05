@@ -16,6 +16,7 @@
   },
   "menu-item#category-women": {
     "props": {
+      "blockClass": "menu-item",
       "id": "menu-item-category-women",
       "type": "custom",
       "iconId": null,
@@ -73,10 +74,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/women---accessories/accessories/",
+        "href": "/Category/Mujer/Pantalones/",
         "noFollow": false,
-        "tagTitle": "Accessories",
-        "text": "Accessories"
+        "tagTitle": "Bottoms",
+        "text": "Bottoms"
       }
     }
   },
@@ -88,22 +89,23 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/women---accessories/eyeglasses/",
+        "href": "/Category/Mujer/Ropa para estar en casa/",
         "noFollow": false,
-        "tagTitle": "Eyeglasses",
-        "text": "Eyeglasses"
+        "tagTitle": "Clothing",
+        "text": "Clothing"
       }
     }
   },
   "menu-item#category-plus-curve": {
     "props": {
+      "blockClass": "menu-item",
       "id": "menu-item-category-plus-curve",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/Category/Hombre/",
+        "href": "/Category/",
         "noFollow": false,
         "tagTitle": "PLUS + CURVE",
         "text": "PLUS + CURVE"
@@ -112,13 +114,14 @@
   },
   "menu-item#category-premiumjeans": {
     "props": {
+      "blockClass": "menu-item",
       "id": "menu-item-category-premiumjeans",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/Category/Bebé/",
+        "href": "/Category/",
         "noFollow": false,
         "tagTitle": "PREMIUM JEANS",
         "text": "PREMIUM JEANS"
@@ -127,13 +130,14 @@
   },
   "menu-item#category-accessories": {
     "props": {
+      "blockClass": "menu-item",
       "id": "menu-item-category-accessories",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/Category/Niños/",
+        "href": "/Category/",
         "noFollow": false,
         "tagTitle": "ACCERSSORIES",
         "text": "ACCESSORIES"
@@ -142,13 +146,14 @@
   },
   "menu-item#category-avtivewear": {
     "props": {
+      "blockClass": "menu-item",
       "id": "menu-item-category-avtivewear",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/Category/Avtivewear/",
+        "href": "/Category/",
         "noFollow": false,
         "tagTitle": "AVTIVEWEAR",
         "text": "AVTIVEWEAR"
@@ -157,13 +162,14 @@
   },
   "menu-item#category-men": {
     "props": {
+      "blockClass": "menu-item",
       "id": "menu-item-category-men",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/Category/Men/",
+        "href": "/Category/Hombre/",
         "noFollow": false,
         "tagTitle": "MEN",
         "text": "MEN"
@@ -172,6 +178,7 @@
   },
   "menu-item#category-girls": {
     "props": {
+      "blockClass": "menu-item",
       "id": "menu-item-category-girls",
       "type": "custom",
       "iconId": null,
@@ -187,13 +194,14 @@
   },
   "menu-item#category-sale": {
     "props": {
+      "blockClass": "menu-item",
       "id": "menu-item-category-sale",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/Category/Sale/",
+        "href": "/Category/",
         "noFollow": false,
         "tagTitle": "SALE",
         "text": "SALE"
