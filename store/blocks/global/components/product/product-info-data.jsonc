@@ -23,7 +23,29 @@
        "children": [
            "vtex.store-components:product-name",
            "product-price",
-           "product-quantity"
+           "product-quantity",
+           "add-to-cart-button",
+           "modal-trigger#add-to-cart-info"
        ]
+    },
+    "modal-trigger#add-to-cart-info":{
+      "children": [
+        "modal-layout#add-to-cart-info"
+      ],
+      "props":{
+        "customPixelEventName":"addToCart"
+      }
+    },
+    "modal-layout#add-to-cart-info":{
+      "children": [
+        "modal-header#add-to-cart-info",
+        "add-to-cart-info"
+      ]
+    },
+    "modal-header#add-to-cart-info":{
+      "props":{
+        "showCloseButton":true,
+        "iconCloseSize":24
+      }
     }
 }
