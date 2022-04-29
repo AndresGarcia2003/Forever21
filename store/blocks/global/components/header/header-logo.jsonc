@@ -2,8 +2,8 @@
     "flex-layout.row#promo":{
         "props": {
           "fullWidth": true,
-          "horizontalAlign": "center",
-          "verticalAlign": "center",
+          "horizontalAlign": "letf",
+          "verticalAlign": "letf",
           "preventHorizontalStretch": true,
           "preventVerticalStretch": true,
           "blockClass":"main-promo"
@@ -16,19 +16,18 @@
         "props": {
           "horizontalAlign": "center",
           "verticalAlign": "center",
-          "preventHorizontalStretch": true,
-          "preventVerticalStretch": true,
           "fullWidth": true,
           "blockClass":"main-header-desktop"
         },
         "children": [
+          "flex-layout.row#desktop0",
           "flex-layout.col#logo-desktop",
-          "login",
-          "minicart.v2"
+          "flex-layout.col#desktop1"
         ]
       },
       "flex-layout.col#logo-desktop": {
         "props": {
+          "horizontalAlign": "center",
           "verticalAlign": "middle"
         },
         "children": ["logo"]
@@ -40,5 +39,24 @@
           "url": "assets/img/Forever-21-Logo.png",
           "width": "150"
         }
+    },
+    "flex-layout.col#desktop1":{
+      "props":{
+        "horizontalAlign": "right"
+      },
+      "children": [
+        "flex-layout.row#desktop1"
+      ]
+    },
+    "flex-layout.row#desktop1":{
+      "children": [
+        "login",
+        "minicart.v2"
+      ]
+    },
+    "flex-layout.row#desktop0":{
+      "children": [
+        "flex-layout.col#spacer"
+      ]
     }
 }

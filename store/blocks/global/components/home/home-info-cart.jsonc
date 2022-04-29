@@ -52,7 +52,7 @@
   "rich-text#global__info--cards5--card1-description": {
     "title": "Card Description",
     "props": {
-      "text": "We’ve got the hottest women’s dresses to add to your wardrobe. Feel yourself in florals and cute ruffles on a day out. Then switch gears with a sexy bodycon or a cute mini dress on fun night out.",
+      "text": "**We’ve got the hottest women’s dresses to add to your wardrobe. Feel yourself in florals and cute ruffles on a day out. Then switch gears with a sexy bodycon or a cute mini dress on fun night out.**",
       "blockClass": "text-card-description",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
@@ -90,7 +90,7 @@
   "rich-text#global__info--cards5--card2-description": {
     "title": "Description",
     "props": {
-      "text": "Stay on top on it with the latest styles from Forever 21! Dress your look of the day in off-the-shoulder tops, camis, and button-front shirts. Up the ante, with a sexy sequin top for your night out. Shop women's tops from $3.99.",
+      "text": "**Stay on top on it with the latest styles from Forever 21! Dress your look of the day in off-the-shoulder tops, camis, and button-front shirts. Up the ante, with a sexy sequin top for your night out. Shop women's tops from $3.99.**",
       "blockClass": "text-card-description",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
@@ -128,7 +128,7 @@
   "rich-text#global__info--cards5--card3-description": {
     "title": "Description",
     "props": {
-      "text": "Come shop our gorgeous plus size styles at Forever 21. Discover the hottest styles and outfits for your everyday. Always on trend, we’ve got a fabulous selection of plus size denim, plus size jackets, and plus sizes dresses.",
+      "text": "**Come shop our gorgeous plus size styles at Forever 21. Discover the hottest styles and outfits for your everyday. Always on trend, we’ve got a fabulous selection of plus size denim, plus size jackets, and plus sizes dresses.**",
       "blockClass": "text-card-description",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
@@ -166,7 +166,7 @@
   "rich-text#global__info--cards5--card4-description": {
     "title": "Description",
     "props": {
-      "text": "Need a wardrobe change? Come check out our men’s clothing at Forever 21. We’ve got all the newest trends and most-wanted pieces up to date. Whether you’re kicking it casual or going all out, we got you covered.",
+      "text": "**Need a wardrobe change? Come check out our men’s clothing at Forever 21. We’ve got all the newest trends and most-wanted pieces up to date. Whether you’re kicking it casual or going all out, we got you covered.**",
       "blockClass": "text-card-description",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"

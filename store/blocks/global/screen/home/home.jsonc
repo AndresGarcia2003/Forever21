@@ -1,6 +1,7 @@
 {
   "store.home": {
     "blocks": [
+      "forever21-button",
       "flex-layout.row#home__section--one",
       "flex-layout.row#main-container",
       "flex-layout.row#home__section--two",
@@ -19,6 +20,11 @@
       "flex-layout.row#global__home--info--cards5"
 
     ]
+  },
+  "forever21-button":{
+    "props":{
+      "logo": "assets/img/telegram.png"
+    }
   },
   "rich-text#home1": {
     "props": {
@@ -52,5 +58,5 @@
       "font": "t-heading-2"
     }
   }
-  
+
 }

@@ -20,4 +20,10 @@
     padding-right: 2rem;
     bottom: 1.125rem;
 }
+.flexCol--desktop-Menu{
+  margin: 0;
+}
+.flexCol--desktop-Category{
+  margin: 0;
+}
 

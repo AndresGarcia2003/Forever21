@@ -22,27 +22,69 @@
   "flex-layout.row#promo":{
     "props": {
       "fullWidth": true,
-      "horizontalAlign": "center",
-      "verticalAlign": "center",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
       "blockClass":"main-promo"
     },
+    "children": [
+      "flex-layout.col#promo"
+    ]
+  },
+  "flex-layout.col#promo":{
+    "props":{
+      "horizontalAlign": "right",
+      "blockClass":"desktop-promo"
+    },
+    "children": [
+      "flex-layout.row#promo-menu"
+    ]
+  },
+  "flex-layout.row#promo-menu":{
     "children": [
       "vtex.menu@2.x:menu#promo-menu"
     ]
   },
   "flex-layout.row#menu":{
     "props": {
-      "fullWidth": true,
       "horizontalAlign": "center",
       "verticalAlign": "center",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
+      "fullWidth": true,
       "blockClass":"main-header-menu"
     },
     "children": [
-      "vtex.menu@2.x:menu#category-menu",
+      "flex-layout.row#desktop-spacer",
+      "flex-layout.col#desktop-Category",
+      "flex-layout.col#desktop-Menu"
+    ]
+  },
+  "flex-layout.row#desktop-spacer":{
+    "children": [
+      "flex-layout.col#spacer"
+    ]
+  },
+  "flex-layout.col#desktop-Category":{
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass":"desktop-Category"
+    },
+    "children": [
+      "flex-layout.row#desktop-Category"
+    ]
+  },
+  "flex-layout.row#desktop-Category":{
+    "children": [
+      "vtex.menu@2.x:menu#category-menu"
+    ]
+  },
+  "flex-layout.col#desktop-Menu":{
+    "props":{
+      "horizontalAlign": "right",
+      "blockClass":"desktop-Menu"
+    },
+    "children": [
+      "flex-layout.row#desktop-Menu"
+    ]
+  },
+  "flex-layout.row#desktop-Menu":{
+    "children": [
       "search-bar#header__search"
     ]
   },
@@ -73,14 +115,19 @@
     }
   },
   "drawer": {
-    "children": []
+    "children": [
+      "vtex.menu@2.x:menu#category-menu"
+    ],
+    "props": {
+      "orientation":"vertical"
+    }
   },
   "search-bar#header__search":{
     "blocks": ["autocomplete-result-list.v2"],
     "props":{
       "openAutocompleteOnFocus": true
     }
-    
+
   },
   "autocomplete-result-list.v2": {
     "blocks": ["product-summary"]

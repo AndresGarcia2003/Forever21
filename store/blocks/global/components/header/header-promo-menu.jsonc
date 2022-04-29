@@ -1,0 +1,25 @@
+{
+  "flex-layout.row#promo":{
+    "props": {
+      "fullWidth": true,
+      "blockClass":"main-promo"
+    },
+    "children": [
+      "flex-layout.col#promo"
+    ]
+  },
+  "flex-layout.col#promo":{
+    "props":{
+      "horizontalAlign": "right",
+      "blockClass":"desktop-promo"
+    },
+    "children": [
+      "flex-layout.row#promo-menu"
+    ]
+  },
+  "flex-layout.row#promo-menu":{
+    "children": [
+      "vtex.menu@2.x:menu#promo-menu"
+    ]
+  }
+}

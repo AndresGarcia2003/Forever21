@@ -8,9 +8,9 @@
  "image#home__image-two":{
     "title": "Imagen de home",
     "props":{
-        "src": "assets/img/banner-two.jpg",
-        "maxHeight":612,
-        "maxWidth": 1176
+        "src": "assets/img/banner-two.jpg"
+        // "maxHeight":612,
+        // "maxWidth": 1176
     }
 },
 "image#home__image-three":{
@@ -37,6 +37,7 @@
         "src": "assets/img/banner-six.jpg"
     }
 },
+
 "image#home__image-seven":{
     "title": "Imagen de home",
     "props":{
@@ -65,8 +66,15 @@
     "title": "Imagen de home",
     "props":{
         "src": "assets/img/button1.jpg"
-        
+
     }
+},
+"image#home__image-twelve":{
+  "title": "Imagen de home",
+  "props":{
+      "src": "assets/img/banner-seven.jpg"
+
+  }
 }
 
 

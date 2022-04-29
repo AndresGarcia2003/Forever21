@@ -7,84 +7,26 @@
   },
   "flex-layout.row#container--header": {
     "children": [
-      "slider-layout#text-test",
+      "menu-item#category-test",
       "menu-item#category-offer",
       "menu-item#category-help",
       "menu-item#category-country"
     ]
   },
-  "slider-layout#text-test": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-      },
-      "infinite": true,
-          "showNavigationArrows": true,
-          "autoplay": {
-            "timeout": 5000,
-          "stopOnHover": false
-         }
-    },
-    "children": [
-      "rich-text#1",
-      "rich-text#2",
-      "rich-text#3",
-      "rich-text#4",
-      "rich-text#5",
-      "rich-text#6",
-      "rich-text#7",
-      "rich-text#8"
-    ]
-  },
-
-  "rich-text#1": {
+  "menu-item#category-test": {
     "props": {
       "blockClass":"menu-item-promo",
-      "text": "Shop Now. Pay in 4 with Klarna."
-    }
-  },
-  "rich-text#2": {
-    "props": {
-      "blockClass":"menu-item-promo",
-      "text": "Free Standard Shipping on Orders $50+"
-    }
-  },
-  "rich-text#3": {
-    "props": {
-      "blockClass":"menu-item-promo",
-      "text": "Click & Collect | Buy Online, Ship FREE to Store"
-    }
-  },
-  "rich-text#4": {
-    "props": {
-      "blockClass":"menu-item-promo",
-      "text": "Take An Extra 17% Off Your Purchase"
-    }
-  },
-  "rich-text#5": {
-    "props": {
-      "blockClass":"menu-item-promo",
-      "text": "Extra 30% Off Sale | CODE: EXTRA30"
-    }
-  },
-  "rich-text#6": {
-    "props": {
-      "blockClass":"menu-item-promo",
-      "text": "Spring Deals Take 50% Off"
-    }
-  },
-  "rich-text#7": {
-    "props": {
-      "blockClass":"menu-item-promo",
-      "text": "Buy Now, Pay Later with AFTERPAY"
-    }
-  },
-  "rich-text#8": {
-    "props": {
-      "blockClass":"menu-item-promo",
-      "text": "Shop Now. Pay in 4 with Klarna.*"
+      "id": "menu-item-category-test",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/test/",
+        "noFollow": false,
+        "tagTitle": "Pay in 4 with Klarna.",
+        "text": "Pay in 4 with Klarna."
+      }
     }
   },
   "menu-item#category-offer": {

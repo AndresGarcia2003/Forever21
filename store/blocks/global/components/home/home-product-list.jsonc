@@ -11,14 +11,14 @@
           "itemsPerPage": {
             "desktop": 5,
             "tablet": 3,
-            "phone": 1
+            "phone": 2
           },
           "infinite": true,
           "fullWidth": false,
           "blockClass": "shelf"
         }
       },
-      
+
     "list-context.product-list#demo2": {
       "blocks": ["product-summary.shelf"],
       "children": ["slider-layout#demo-products2"],
@@ -31,14 +31,14 @@
         "itemsPerPage": {
           "desktop": 5,
           "tablet": 3,
-          "phone": 1
+          "phone": 2
         },
         "infinite": true,
         "fullWidth": false,
         "blockClass": "shelf"
       }
     },
-    
+
     "list-context.product-list#demo3": {
       "blocks": ["product-summary.shelf"],
       "children": ["slider-layout#demo-products"],

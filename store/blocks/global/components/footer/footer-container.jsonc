@@ -4,18 +4,15 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#about-us"
-      // "menu-item#careers",
-      // "menu-item#social-responsibility",
-      // "menu-item#affiliate-program"
-      
-
-
-// Business With Us
-// Press & Talent
-// Find a Store
-// Site Map
-// Forever 21 Gives Back
+      "menu-item#about-us",
+      "menu-item#careers",
+      "menu-item#social-responsibility",
+      "menu-item#affiliate-program",
+      "menu-item#business-with-us",
+      "menu-item#press-&-talent",
+      "menu-item#find-a-store",
+      "menu-item#site-map",
+      "menu-item#forever-21-gives-back"
     ]
   },
   "menu-item#about-us": {
@@ -26,55 +23,130 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/terms-of-use",
         "noFollow": false,
         "tagTitle": "About us",
         "text": "About us"
       }
     }
   },
-  "menu-item#blackfriday": {
+  "menu-item#careers": {
     "props": {
-      "id": "menu-item-black-friday",
+      "id": "menu-item#careers",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/terms-of-use",
         "noFollow": false,
-        "tagTitle": "BlackFriday",
-        "text": "Black Friday"
+        "tagTitle": "Careers",
+        "text": "Careers"
       }
     }
   },
-  "menu-item#sale": {
+  "menu-item#social-responsibility": {
     "props": {
-      "id": "menu-item-sale",
+      "id": "menu-item#social-responsibility",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/terms-of-use",
         "noFollow": false,
-        "tagTitle": "Sale",
-        "text": "Sale"
+        "tagTitle": "Social Responsibility",
+        "text": "Social Responsibility"
       }
     }
   },
-  "menu-item#personalization": {
+  "menu-item#affiliate-program": {
     "props": {
-      "id": "menu-item-personalization",
+      "id": "menu-item#affiliate-program",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/terms-of-use",
         "noFollow": false,
-        "tagTitle": "Personalization",
-        "text": "Personalization"
+        "tagTitle": "Affiliate Program",
+        "text": "Affiliate Program"
+      }
+    }
+  },
+  "menu-item#business-with-us": {
+    "props": {
+      "id": "menu-item#business-with-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terms-of-use",
+        "noFollow": false,
+        "tagTitle": "Business With Us",
+        "text": "Business With Us"
+      }
+    }
+  },
+  "menu-item#press-&-talent": {
+    "props": {
+      "id": "menu-item#press-&-talent",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terms-of-use",
+        "noFollow": false,
+        "tagTitle": "Press & Talent",
+        "text": "Press & Talent"
+      }
+    }
+  },
+  "menu-item#find-a-store": {
+    "props": {
+      "id": "menu-item#find-a-store",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terms-of-use",
+        "noFollow": false,
+        "tagTitle": "Find a Store",
+        "text": "Find a Store"
+      }
+    }
+  },
+  "menu-item#site-map": {
+    "props": {
+      "id": "menu-item#site-map",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terms-of-use",
+        "noFollow": false,
+        "tagTitle": "Site Map",
+        "text": "Site Map"
+      }
+    }
+  },
+  "menu-item#forever-21-gives-back": {
+    "props": {
+      "id": "menu-item#forever-21-gives-back",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terms-of-use",
+        "noFollow": false,
+        "tagTitle": "Forever 21 Gives Back",
+        "text": "Forever 21 Gives Back"
       }
     }
   },
@@ -197,204 +269,159 @@
     }
   },
 
-  "vtex.menu@2.x:menu#footer-clothing": {
+  "vtex.menu@2.x:menu#footer-Help": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#clothing",
-      "menu-item#shorts",
-      "menu-item#tank-tops",
-      "menu-item#shirts",
-      "menu-item#sweatshirt",
-      "menu-item#cropped"
+      "menu-item#help",
+      "menu-item#contact-us",
+      "menu-item#order-status",
+      "menu-item#shipping-info",
+      "menu-item#online-returns-&-exchanges",
+      "menu-item#store-return-&-exchange",
+      "menu-item#size-guide",
+      "menu-item#faq",
+      "menu-item#buy-online-pick-up-in-store"
     ]
   },
-
-  "vtex.menu@2.x:menu#footer-mobile": {
+  "menu-item#help": {
     "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#clothing-mobile",
-      "menu-item#decoration-mobile",
-      "menu-item#sale-mobile"
-    ]
-  },
-
-  "menu-item#clothing-mobile": {
-    "props": {
-      "id": "menu-item-category-clothing",
+      "id": "menu-item-help",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/d",
+        "href": "/terms-of-use",
         "noFollow": true,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
-      }
-    },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
-  },
-  "vtex.menu@2.x:submenu.accordion#clothing": {
-    "children": ["vtex.menu@2.x:menu#clothing-accordion"]
-  },
-
-  "vtex.menu@2.x:menu#clothing-accordion": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#shorts",
-      "menu-item#tank-tops",
-      "menu-item#shirts",
-      "menu-item#sweatshirt",
-      "menu-item#cropped"
-    ]
-  },
-
-  "menu-item#decoration-mobile": {
-    "props": {
-      "itemProps": {
-        "tagTitle": "Decoration",
-        "text": "Decoration"
-      }
-    },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#decoration"]
-  },
-  "vtex.menu@2.x:submenu.accordion#decoration": {
-    "children": ["vtex.menu@2.x:menu#footer-decoration-mobile"]
-  },
-
-  "vtex.menu@2.x:menu#footer-decoration-mobile": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
-    ]
-  },
-
-  "menu-item#sale-mobile": {
-    "props": {
-      "itemProps": {
-        "tagTitle": "Sale",
-        "text": "Sale"
-      }
-    },
-    "blocks": ["vtex.menu@2.x:submenu.accordion#sale"]
-  },
-  "vtex.menu@2.x:submenu.accordion#sale": {
-    "children": ["vtex.menu@2.x:menu#footer-sale-mobile"]
-  },
-
-  "vtex.menu@2.x:menu#footer-sale-mobile": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
-    ]
-  },
-
-  "menu-item#clothing": {
-    "props": {
-      "id": "menu-item-category-clothing",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/clothing/d",
-        "noFollow": true,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "Help",
+        "text": "Help"
       }
     }
   },
 
-  "menu-item#shorts": {
+  "menu-item#contact-us": {
     "props": {
-      "id": "menu-item-shorts",
+      "id": "menu-item-contact-us",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/shorts",
+        "href": "/terms-of-use",
         "noFollow": false,
-        "tagTitle": "Shorts",
-        "text": "Shorts"
+        "tagTitle": "Contact Us",
+        "text": "Contact Us"
       }
     }
   },
 
-  "menu-item#tank-tops": {
+  "menu-item#order-status": {
     "props": {
-      "id": "menu-item-tank-tops",
+      "id": "menu-item-order-status",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/tank-tops",
+        "href": "/terms-of-use",
         "noFollow": false,
-        "tagTitle": "Tank tops",
-        "text": "Tank tops"
+        "tagTitle": "Order Status",
+        "text": "Order Status"
       }
     }
   },
 
-  "menu-item#shirts": {
+  "menu-item#shipping-info": {
     "props": {
-      "id": "menu-item-shirts",
+      "id": "menu-item-shipping-info",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/shirts",
+        "href": "/terms-of-use",
         "noFollow": false,
-        "tagTitle": "Shirts",
-        "text": "Shirts"
+        "tagTitle": "Shipping Info",
+        "text": "Shipping Info"
       }
     }
   },
 
-  "menu-item#sweatshirt": {
+  "menu-item#online-returns-&-exchanges": {
     "props": {
-      "id": "menu-item-sweat-shirts",
+      "id": "menu-item-online-returns-&-exchanges",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/sweatshirt",
+        "href": "/terms-of-use",
         "noFollow": false,
-        "tagTitle": "Sweatshirt",
-        "text": "Sweatshirt"
+        "tagTitle": "Online Returns & Exchanges",
+        "text": "Online Returns & Exchanges"
       }
     }
   },
 
-  "menu-item#cropped": {
+  "menu-item#store-return-&-exchange": {
     "props": {
-      "id": "menu-item-cropped",
+      "id": "menu-item-store-return-&-exchange",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/cropped",
+        "href": "/terms-of-use",
         "noFollow": false,
-        "tagTitle": "Cropped",
-        "text": "Cropped"
+        "tagTitle": "Store Return & Exchange",
+        "text": "Store Return & Exchange"
+      }
+    }
+  },
+  "menu-item#size-guide": {
+    "props": {
+      "id": "menu-item-size-guide",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terms-of-use",
+        "noFollow": false,
+        "tagTitle": "Size Guide",
+        "text": "Size Guide"
+      }
+    }
+  },
+  "menu-item#faq": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terms-of-use",
+        "noFollow": false,
+        "tagTitle": "FAQ",
+        "text": "FAQ"
+      }
+    }
+  },
+  "menu-item#buy-online-pick-up-in-store": {
+    "props": {
+      "id": "menu-item-buy-online-pick-up-in-store",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terms-of-use",
+        "noFollow": false,
+        "tagTitle": "Buy Online, Pick Up In-Store",
+        "text": "Buy Online, Pick Up In-Store"
       }
     }
   }

@@ -1,0 +1,48 @@
+{
+  "store.custom#terms-of-use": {
+   "blocks":[
+    "flex-layout.row#container"
+   ]
+  },
+  "flex-layout.row#container":{
+    "children":[
+      "flex-layout.col#terms-of-use"
+    ]
+  },
+  "flex-layout.col#terms-of-use":{
+    "children":[
+      "rich-text#terms-of-use1",
+      "rich-text#terms-of-use2",
+      "rich-text#terms-of-use3",
+      "rich-text#terms-of-use4",
+      "rich-text#terms-of-use5"
+    ]
+  },
+  "rich-text#terms-of-use1":{
+    "props":{
+      "text":"### TERMS OF USE\nEffective as of November 11, 2020."
+    }
+  },
+  "rich-text#terms-of-use2":{
+    "props":{
+      "text":"These Terms of Use (Terms) apply to the website located at forever21.com, the FOREVER 21 mobile applications, and any other websites or applications associated with FOREVER 21 brands or products that direct the viewer or user to these Terms (collectively, the Site). In these Terms, the terms “FOREVER 21,” “we,” and “us” refers to F21 OPCO, LLC and its respective subsidiaries and affiliated companies.\nYour access to and use of the Sites is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Site (collectively, Users). By accessing or using the Site you agree to be bound by these Terms. If you disagree with any part of the Terms, then you should discontinue access or use of the Site.\nARBITRATION NOTICE: EXCEPT IF YOU OPT-OUT AND EXCEPT FOR CERTAIN TYPES OF DISPUTES DESCRIBED IN THE ARBITRATION SECTION BELOW, YOU AGREE THAT DISPUTES BETWEEN YOU AND FOREVER 21 WILL BE RESOLVED BY BINDING, INDIVIDUAL ARBITRATION AND YOU WAIVE YOUR RIGHT TO PARTICIPATE IN A CLASS ACTION LAWSUIT OR CLASS-WIDE ARBITRATION."
+    }
+  },
+  "rich-text#terms-of-use3":{
+    "props":{
+      "text":"Your access to and use of the Sites is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Site (collectively, Users). By accessing or using the Site you agree to be bound by these Terms. If you disagree with any part of the Terms, then you should discontinue access or use of the Site.\nARBITRATION NOTICE: EXCEPT IF YOU OPT-OUT AND EXCEPT FOR CERTAIN TYPES OF DISPUTES DESCRIBED IN THE ARBITRATION SECTION BELOW, YOU AGREE THAT DISPUTES BETWEEN YOU AND FOREVER 21 WILL BE RESOLVED BY BINDING, INDIVIDUAL ARBITRATION AND YOU WAIVE YOUR RIGHT TO PARTICIPATE IN A CLASS ACTION LAWSUIT OR CLASS-WIDE ARBITRATION."
+    }
+  },
+  "rich-text#terms-of-use4":{
+    "props":{
+      "text":"**ARBITRATION NOTICE: EXCEPT IF YOU OPT-OUT AND EXCEPT FOR CERTAIN TYPES OF DISPUTES DESCRIBED IN THE ARBITRATION SECTION BELOW, YOU AGREE THAT DISPUTES BETWEEN YOU AND FOREVER 21 WILL BE RESOLVED BY BINDING, INDIVIDUAL ARBITRATION AND YOU WAIVE YOUR RIGHT TO PARTICIPATE IN A CLASS ACTION LAWSUIT OR CLASS-WIDE ARBITRATION.**"
+    }
+  },
+  "rich-text#terms-of-use5":{
+    "props":{
+      "text":"#### 1. ELIGIBILITY\nThis is a contract between you and FOREVER 21. You must read and agree to these Terms before using our Site. If you do not agree to these Terms, you may not use our Site. You may use our Site only if you can form a binding contract with us, and only in compliance with these Terms and all applicable local, state, national, and international laws, rules and regulations. Any use or access to the Site by anyone under thirteen (13) years of age is strictly prohibited and in violation of these Terms. If you are under eighteen (18) years of age, you may use the Site only with involvement a parent or legal guardian and their consent and agreement to these Terms. If you are under 18, you represent that you have your parent or guardian’s permission to use the Site and that your parent or guardian is agreeing to these Terms. If you are a parent or legal guardian of a User under the age of 18, by allowing your child to use the Site, you are subject to the terms of these Terms, and responsible for your child’s activity on the Site. Our Site is not available to any Users we previously removed from our Site."
+    }
+  }
+
+
+}

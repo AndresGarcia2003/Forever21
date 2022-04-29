@@ -1,2 +1,5 @@
 {
+  "store.custom#terms-of-use": {
+    "path": "/terms-of-use"
+  }
 }
