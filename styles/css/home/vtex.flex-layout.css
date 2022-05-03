@@ -1,0 +1,27 @@
+.flexRowContent--store-product-pdp :global(.vtex-button__label){
+
+  background-color: yellow;
+  border-color: none;
+  color: black;
+}
+
+.flexRowContent--store-product-pdp:hover :global(.vtex-button__label){
+  border: 1px solid yellow;
+  background-color:white;
+  color: black;
+  padding: 5px 10px;
+}
+
+.flexRowContent--store-product-pdp :global(.vtex-button){
+   border: none;
+}
+
+.flexCol--image-cards{
+  margin: 0 15px;
+}
+
+.flexrow--menu-row{
+  font-size: 8px;
+}
+
+

@@ -1,3 +1,9 @@
 .slide--shelf{
   margin: 0 10px;
 }
+
+.sliderLayoutContainer--shelf{
+  font-size: 16px;
+  margin: 16px 0px;
+  padding: 0px 20px;
+}

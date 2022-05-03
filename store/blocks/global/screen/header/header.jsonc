@@ -116,7 +116,14 @@
   },
   "drawer": {
     "children": [
-      "vtex.menu@2.x:menu#category-menu"
+       "menu-item#category-women",
+      "menu-item#category-plus-curve",
+      "menu-item#category-premiumjeans",
+      "menu-item#category-accessories",
+      "menu-item#category-avtivewear",
+      "menu-item#category-men",
+      "menu-item#category-girls",
+      "menu-item#category-sale"
     ],
     "props": {
       "orientation":"vertical"

@@ -6,8 +6,8 @@
       "flex-layout.row#product__tabs",
       "flex-layout.row#product-main",
       "shelf.relatedProducts",
-      "list-context.product-list#demo3",
-      "list-context.product-list#demo3"
+      "list-context.product-list#demo4",
+      "list-context.product-list#demo4"
     ]
   },
   "flex-layout.row#product__tabs":{
@@ -70,9 +70,11 @@
   "flex-layout.row#buy-button": {
     "props": {
       "marginTop": 4,
-      "marginBottom": 7
+      "marginBottom": 7,
+      "blockClass": "store-product-pdp"
+
     },
-    "children": ["buy-button"]
+    "children": ["add-to-cart-button"]
   },
 
   "share#default": {

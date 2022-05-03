@@ -1,4 +1,5 @@
 {
+  //SECCION 1 FOOTER
   "vtex.menu@2.x:menu#Products": {
     "props": {
       "orientation": "vertical"
@@ -17,6 +18,7 @@
   },
   "menu-item#about-us": {
     "props": {
+      "blockClass": "footer-item",
       "id": "menu-item-about-us",
       "type": "custom",
       "iconId": null,
@@ -32,6 +34,7 @@
   },
   "menu-item#careers": {
     "props": {
+      "blockClass": "footer-item",
       "id": "menu-item#careers",
       "type": "custom",
       "iconId": null,
@@ -47,6 +50,7 @@
   },
   "menu-item#social-responsibility": {
     "props": {
+      "blockClass": "footer-item",
       "id": "menu-item#social-responsibility",
       "type": "custom",
       "iconId": null,
@@ -62,6 +66,7 @@
   },
   "menu-item#affiliate-program": {
     "props": {
+      "blockClass": "footer-item",
       "id": "menu-item#affiliate-program",
       "type": "custom",
       "iconId": null,
@@ -77,6 +82,7 @@
   },
   "menu-item#business-with-us": {
     "props": {
+      "blockClass": "footer-item",
       "id": "menu-item#business-with-us",
       "type": "custom",
       "iconId": null,
@@ -92,6 +98,7 @@
   },
   "menu-item#press-&-talent": {
     "props": {
+      "blockClass": "footer-item",
       "id": "menu-item#press-&-talent",
       "type": "custom",
       "iconId": null,
@@ -107,6 +114,7 @@
   },
   "menu-item#find-a-store": {
     "props": {
+      "blockClass": "footer-item",
       "id": "menu-item#find-a-store",
       "type": "custom",
       "iconId": null,
@@ -122,6 +130,7 @@
   },
   "menu-item#site-map": {
     "props": {
+      "blockClass": "footer-item",
       "id": "menu-item#site-map",
       "type": "custom",
       "iconId": null,
@@ -137,6 +146,7 @@
   },
   "menu-item#forever-21-gives-back": {
     "props": {
+      "blockClass": "footer-item",
       "id": "menu-item#forever-21-gives-back",
       "type": "custom",
       "iconId": null,
@@ -151,123 +161,306 @@
     }
   },
 
+   //SECCION 3 FOOTER
+
   "vtex.menu@2.x:menu#footer-decoration": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
+      "menu-item#quick-links",
+      "menu-item#special-offers",
+      "menu-item#gift-cards",
+      "menu-item#student-discount",
+      "menu-item#blog",
+      "menu-item#privacy-policy",
+      "menu-item#your-california-privacy-rights",
+      "menu-item#ca-transparency-in-supply-chains-act",
+      "menu-item#terms-of-use",
+      "menu-item#web-accessibility-statement"
     ]
   },
-
-  "menu-item#smartphones": {
+  "menu-item#quick-links": {
     "props": {
-      "id": "menu-item-smartphones",
+      "blockClass": "footer-item",
+      "id": "menu-item-quick-links",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/smartphones",
+        "href": "/terms-of-use",
         "noFollow": true,
-        "tagTitle": "Smartphones",
-        "text": "Smartphones"
+        "tagTitle": "Quick Links",
+        "text": "Quick Links"
       }
     }
   },
-
-  "menu-item#videogames": {
+  "menu-item#special-offers": {
     "props": {
-      "id": "menu-item-videogames",
+      "blockClass": "footer-item",
+      "id": "menu-item-special-offers",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/videogames",
+        "href": "/terms-of-use",
         "noFollow": true,
-        "tagTitle": "Videogames",
-        "text": "Videogames"
+        "tagTitle": "Special Offers",
+        "text": "Special Offers"
       }
     }
   },
-
-  "menu-item#tvs": {
+  "menu-item#gift-cards": {
     "props": {
-      "id": "menu-item-tvs",
+      "blockClass": "footer-item",
+      "id": "menu-item-gift-cards",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/tvs",
+        "href": "/terms-of-use",
         "noFollow": true,
-        "tagTitle": "TVs",
-        "text": "TVs"
+        "tagTitle": "Gift Cards",
+        "text": "Gift Cards"
       }
     }
   },
+  "menu-item#student-discount": {
+    "props": {
+      "blockClass": "footer-item",
+      "id": "menu-item-student-discount",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terms-of-use",
+        "noFollow": true,
+        "tagTitle": "Student Discount",
+        "text": "Student Discount"
+      }
+    }
+  },
+  "menu-item#blog": {
+    "props": {
+      "blockClass": "footer-item",
+      "id": "menu-item-blog",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terms-of-use",
+        "noFollow": true,
+        "tagTitle": "Blog",
+        "text": "Blog"
+      }
+    }
+  },
+  "menu-item#privacy-policy": {
+    "props": {
+      "blockClass": "footer-item",
+      "id": "menu-item-privacy-policy",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terms-of-use",
+        "noFollow": true,
+        "tagTitle": "Privacy Policy",
+        "text": "Privacy Policy"
+      }
+    }
+  },
+  "menu-item#your-california-privacy-rights": {
+    "props": {
+      "blockClass": "footer-item",
+      "id": "menu-item-your-california-privacy-rights",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terms-of-use",
+        "noFollow": true,
+        "tagTitle": "Your California Privacy Rights",
+        "text": "Your California Privacy Rights"
+      }
+    }
+  },
+  "menu-item#ca-transparency-in-supply-chains-act": {
+    "props": {
+      "blockClass": "footer-item",
+      "id": "menu-item-ca-transparency-in-supply-chains-act",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terms-of-use",
+        "noFollow": true,
+        "tagTitle": "CA Transparency In Supply Chains Act",
+        "text": "CA Transparency In Supply Chains Act"
+      }
+    }
+  },
+  "menu-item#terms-of-use": {
+    "props": {
+      "blockClass": "footer-item",
+      "id": "menu-item-terms-of-use",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terms-of-use",
+        "noFollow": true,
+        "tagTitle": "Terms Of Use",
+        "text": "Terms Of Use"
+      }
+    }
+  },
+  "menu-item#web-accessibility-statement": {
+    "props": {
+      "blockClass": "footer-item",
+      "id": "menu-item-web-accessibility-statement",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terms-of-use",
+        "noFollow": true,
+        "tagTitle": "Web Accessibility Statement",
+        "text": "Web Accessibility Statement"
+      }
+    }
+  },
+
+
+  //SECCION 4 FOOTER
 
   "vtex.menu@2.x:menu#footer-bags": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#bags",
-      "menu-item#backpacks",
-      "menu-item#necessaire"
+      "menu-item#forever-rewarded",
+      "menu-item#apply-now",
+      "menu-item#card-benefit",
+      "menu-item#manage-account",
+      "menu-item#forever-21-credit-card",
+      "menu-item#forever-21-visa-credit-card"
     ]
   },
 
-  "menu-item#bags": {
+  "menu-item#forever-rewarded": {
     "props": {
-      "id": "menu-item-bags",
+      "blockClass": "footer-item",
+      "id": "menu-item-forever-rewarded",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/bags/d",
+        "href": "/terms-of-use",
         "noFollow": true,
-        "tagTitle": "Bags",
-        "text": "Bags"
+        "tagTitle": "Forever Rewarded",
+        "text": "Forever Rewarded"
+      }
+    }
+  },
+  "menu-item#apply-now": {
+    "props": {
+      "blockClass": "footer-item",
+      "id": "menu-item-apply-now",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terms-of-use",
+        "noFollow": true,
+        "tagTitle": "Apply Now",
+        "text": "Apply Now"
+      }
+    }
+  },
+  "menu-item#card-benefit": {
+    "props": {
+      "blockClass": "footer-item",
+      "id": "menu-item-card-benefit",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terms-of-use",
+        "noFollow": true,
+        "tagTitle": "Card Benefit",
+        "text": "Card Benefit"
       }
     }
   },
 
-  "menu-item#backpacks": {
+  "menu-item#manage-account": {
     "props": {
-      "id": "menu-item-backpacks",
+      "blockClass": "footer-item",
+      "id": "menu-item-manage-account",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/bags/backpacks",
+        "href": "/terms-of-use",
         "noFollow": true,
-        "tagTitle": "Backpacks",
-        "text": "Backpacks"
+        "tagTitle": "Manage Account",
+        "text": "Manage Account"
       }
     }
   },
 
-  "menu-item#necessaire": {
+  "menu-item#forever-21-credit-card": {
     "props": {
-      "id": "menu-item-necessaire",
+      "blockClass": "footer-item",
+      "id": "menu-item-forever-21-credit-card",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/bags/necessaire",
+        "href": "/terms-of-use",
         "noFollow": true,
-        "tagTitle": "Necessaire",
-        "text": "Necessaire"
+        "tagTitle": "Forever 21 Credit Card",
+        "text": "- Forever 21 Credit Card"
       }
     }
   },
+
+  "menu-item#forever-21-visa-credit-card": {
+    "props": {
+      "blockClass": "footer-item",
+      "id": "menu-item-forever-21-visa-credit-card",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terms-of-use",
+        "noFollow": true,
+        "tagTitle": "Forever 21 VISA Credit Card",
+        "text": "- Forever 21 VISA Credit Card"
+      }
+    }
+  },
+
+
+
+  //SECCION 2 FOOTER
 
   "vtex.menu@2.x:menu#footer-Help": {
     "props": {
@@ -287,6 +480,7 @@
   },
   "menu-item#help": {
     "props": {
+      "blockClass": "footer-item",
       "id": "menu-item-help",
       "type": "custom",
       "iconId": null,
@@ -303,6 +497,7 @@
 
   "menu-item#contact-us": {
     "props": {
+      "blockClass": "footer-item",
       "id": "menu-item-contact-us",
       "type": "custom",
       "iconId": null,
@@ -319,6 +514,7 @@
 
   "menu-item#order-status": {
     "props": {
+      "blockClass": "footer-item",
       "id": "menu-item-order-status",
       "type": "custom",
       "iconId": null,
@@ -335,6 +531,7 @@
 
   "menu-item#shipping-info": {
     "props": {
+      "blockClass": "footer-item",
       "id": "menu-item-shipping-info",
       "type": "custom",
       "iconId": null,
@@ -351,6 +548,7 @@
 
   "menu-item#online-returns-&-exchanges": {
     "props": {
+      "blockClass": "footer-item",
       "id": "menu-item-online-returns-&-exchanges",
       "type": "custom",
       "iconId": null,
@@ -367,6 +565,7 @@
 
   "menu-item#store-return-&-exchange": {
     "props": {
+      "blockClass": "footer-item",
       "id": "menu-item-store-return-&-exchange",
       "type": "custom",
       "iconId": null,
@@ -382,6 +581,7 @@
   },
   "menu-item#size-guide": {
     "props": {
+      "blockClass": "footer-item",
       "id": "menu-item-size-guide",
       "type": "custom",
       "iconId": null,
@@ -397,6 +597,7 @@
   },
   "menu-item#faq": {
     "props": {
+      "blockClass": "footer-item",
       "id": "menu-item-faq",
       "type": "custom",
       "iconId": null,
@@ -412,6 +613,7 @@
   },
   "menu-item#buy-online-pick-up-in-store": {
     "props": {
+      "blockClass": "footer-item",
       "id": "menu-item-buy-online-pick-up-in-store",
       "type": "custom",
       "iconId": null,

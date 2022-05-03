@@ -38,13 +38,13 @@
       "rich-text#global__info--cards5--card1-shop"
     ],
     "props": {
-      "blockClass": ""
+      "blockClass": "image-cards"
     }
   },
   "image#global__info--cards5--card1--image": {
     "title": "Card Image",
     "props": {
-      "blockClass": "",
+      "blockClass": "image-cards",
       "src": "assets/img/favorites.jpg",
       "alt": ""
     }
@@ -76,13 +76,13 @@
       "rich-text#global__info--cards5--card2-shop"
     ],
     "props": {
-      "blockClass": ""
+      "blockClass": "image-cards"
     }
   },
   "image#global__info--cards5--card2--image": {
     "title": "Card Image",
     "props": {
-      "blockClass": "",
+      "blockClass": "image-cards",
       "src": "assets/img/favorites2.jpg",
       "alt": ""
     }
@@ -114,13 +114,13 @@
       "rich-text#global__info--cards5--card3-shop"
     ],
     "props": {
-      "blockClass": ""
+      "blockClass": "image-cards"
     }
   },
   "image#global__info--cards5--card3--image": {
     "title": "Card Image",
     "props": {
-      "blockClass": "",
+      "blockClass": "image-cards",
       "src": "assets/img/favorites3.jpg",
       "alt": ""
     }
@@ -152,13 +152,13 @@
       "rich-text#global__info--cards5--card4-shop"
     ],
     "props": {
-      "blockClass": ""
+      "blockClass": "image-cards"
     }
   },
   "image#global__info--cards5--card4--image": {
     "title": "Card Image",
     "props": {
-      "blockClass": "",
+      "blockClass": "image-cards",
       "src": "assets/img/favorites4.jpg",
       "alt": ""
     }

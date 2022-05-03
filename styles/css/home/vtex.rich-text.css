@@ -10,6 +10,18 @@
     padding: 5px 10px;
     border: 1px solid;
 }
+.paragraph--text-card-description{
+  font-size: 11px;
+  margin: 10px;
+}
+.paragraph--rich-text-home{
+  font-size: 30px;
+  margin: 0;
+}
+
+.container--footer{
+  font-size: 12px;
+}
 /* .paragraph{
     font-family: "roboto, sans-serif";
     font-size: 12px

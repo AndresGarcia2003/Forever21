@@ -28,6 +28,7 @@
   },
   "rich-text#home1": {
     "props": {
+      "blockClass": "rich-text-home",
       "text": "New Arrivals",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
@@ -36,6 +37,7 @@
   },
   "rich-text#home2": {
     "props": {
+      "blockClass": "rich-text-home",
       "text": "Best Sellers",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
@@ -44,6 +46,7 @@
   },
   "rich-text#home3": {
     "props": {
+      "blockClass": "rich-text-home",
       "text": "Sale",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
@@ -52,6 +55,7 @@
   },
   "rich-text#home4": {
     "props": {
+      "blockClass": "rich-text-home",
       "text": "Forever Favorites",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",

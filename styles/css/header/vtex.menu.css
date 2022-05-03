@@ -4,4 +4,8 @@
 }
 .styledLinkContent--menu-item-promo{
     font-size: 14px;
-} 
+}
+
+.menuItem--footer-item--isOpen{
+  font-size: 12px;
+}
