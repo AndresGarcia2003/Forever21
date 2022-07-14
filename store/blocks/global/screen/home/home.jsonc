@@ -1,6 +1,8 @@
 {
   "store.home": {
     "blocks": [
+      "cuenta-regresiva",
+      "promo-envio-gratis",
       "forever21-button",
       "flex-layout.row#home__section--one",
       "flex-layout.row#main-container",
@@ -18,7 +20,6 @@
       "list-context.product-list#demo3",
       "rich-text#home4",
       "flex-layout.row#global__home--info--cards5"
-
     ]
   },
   "forever21-button":{

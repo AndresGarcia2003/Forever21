@@ -8,7 +8,7 @@
     }
   },
   "flex-layout.col#hero-container": {
-    "children": ["list-context.bullet-group"]
+    // "children": ["list-context.bullet-group"]
   },
 
   "list-context.bullet-group": {
@@ -20,7 +20,6 @@
         "bullets":[
           {
           "image":"assets/img/slider10.jpg",
-          // "titleBullet":"computadores",
           "link":{
             "url":"/"
           }

@@ -51,7 +51,7 @@
     "flex-layout.row#desktop1":{
       "children": [
         "login",
-        "minicart.v2"
+        "minicart.v2#global__minicart"
       ]
     },
     "flex-layout.row#desktop0":{
