@@ -2,7 +2,7 @@
   "store.home": {
     "blocks": [
       "cuenta-regresiva",
-      "promo-envio-gratis",
+      "flex-layout.row#promotion-grid",
       "forever21-button",
       "flex-layout.row#home__section--one",
       "flex-layout.row#main-container",
@@ -62,6 +62,53 @@
       "textPosition": "CENTER",
       "font": "t-heading-2"
     }
+  },
+  "flex-layout.row#promotion-grid":{
+    "title":"promotion grid",
+    "children":["promotion-grid"]
+  },
+  "promotion-grid":{
+    "title":"promotion grid custom",
+    "props":{
+      "products":[
+        {
+          "name": "vestidos",
+          "title": "vestidos",
+          "description": "vestidos",
+          "cta":"#",
+          "image": "https://cdn.shopify.com/s/files/1/0573/8283/0262/files/banners-categoria_vestidos_400x.png?v=1648059043"
+        },
+        {
+          "name": "active",
+          "title": "active",
+          "description": "active",
+          "cta":"#",
+          "image": "https://cdn.shopify.com/s/files/1/0573/8283/0262/files/banners-categoria_active_400x.png?v=1648059106"
+        },
+        {
+          "name": "tops",
+          "title": "tops",
+          "description": "tops",
+          "cta":"#",
+          "image": "https://cdn.shopify.com/s/files/1/0573/8283/0262/files/banners-categoria_tops_8e49c778-0e6f-486e-b5d7-8e8b2f289f14_400x.png?v=1648136110"
+        },
+        {
+          "name": "swimwear",
+          "title": "swimwear",
+          "description": "swimwear",
+          "cta":"#",
+          "image": "https://cdn.shopify.com/s/files/1/0573/8283/0262/files/banners-categoria_swimwear_803c8da2-653c-4a3f-859d-8cf742e70ddb_400x.png?v=1648136087"
+        },
+        {
+          "name": "accesorios",
+          "title": "accesrios",
+          "description": "accesrios",
+          "cta":"#",
+          "image": "https://cdn.shopify.com/s/files/1/0573/8283/0262/files/banners-categoria_accesorios_400x.png?v=1648059145"
+        }
+      ],
+      "gridType": 3,
+      "typeScreen": "desktop"
+    }
   }
-
 }
