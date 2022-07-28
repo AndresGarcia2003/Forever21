@@ -3,6 +3,7 @@
     "blocks": [
       "cuenta-regresiva",
       "flex-layout.row#promotion-grid",
+      "subscription-popup",
       "forever21-button",
       "flex-layout.row#home__section--one",
       "flex-layout.row#main-container",
@@ -109,6 +110,14 @@
       ],
       "gridType": 3,
       "typeScreen": "desktop"
+    }
+  },
+  "subscription-popup":{
+    "title": "Subscription Popup",
+    "props": {
+      "porcentageDiscount": 10,
+      "accountName": "devfelipegarcia",
+      "environment": "itgloberspartnercl"
     }
   }
 }
